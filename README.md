@@ -21,7 +21,7 @@ Se mais tarde alterares ou apagares um plano, os treinos antigos mantêm-se no h
 
 ## Como abrir e correr
 
-**Requisitos:** Android Studio **Narwhal 3 Feature Drop (2025.1.3) ou mais recente**. O ideal é teres a versão mais recente.
+**Requisitos:** Android Studio **Narwhal Feature Drop (2025.1.2) ou mais recente**.
 
 1. No Android Studio: **File > Open…** e escolhe a pasta `WorkBuddy`.
    (Ou **File > New > Project from Version Control…** com o URL do repositório no GitHub.)
@@ -31,7 +31,7 @@ Se mais tarde alterares ou apagares um plano, os treinos antigos mantêm-se no h
    - **O teu telemóvel:** ativa as *Opções de programador* e a *Depuração USB*. [Guia](https://developer.android.com/studio/run/device)
 4. Carrega em **Run ▶** (configuração `app`).
 
-> **O Android Studio sugere atualizar o "Android Gradle Plugin"?** Podes ignorar por agora. O projeto usa a versão 8.13 de propósito, para funcionar também em Android Studios um pouco mais antigos. Atualizar é um dos desafios em EXERCICIOS.md.
+> **O Android Studio sugere atualizar o "Android Gradle Plugin"?** Podes ignorar por agora. O projeto usa a versão 8.12 de propósito, para funcionar também em Android Studios um pouco mais antigos. Atualizar é um dos desafios em EXERCICIOS.md.
 
 > **Da primeira vez que compilares**, o Room cria o ficheiro `app/schemas/.../1.json` com a "fotografia" da base de dados. Faz commit dele: vais precisar dele quando mudares a base de dados (ver abaixo).
 
@@ -129,9 +129,9 @@ Todas as versões estão em [`gradle/libs.versions.toml`](gradle/libs.versions.t
 
 | | Versão |
 |---|---|
-| Android Gradle Plugin | 8.13.2 |
-| Gradle | 9.2.1 (corre com JDK 17 a 25) |
-| Kotlin / KSP | 2.3.0 / 2.3.4 |
+| Android Gradle Plugin | 8.12.0 |
+| Gradle | 8.14.3 (corre com JDK 17 a 24) |
+| Kotlin / KSP | 2.2.21 / 2.2.21-2.0.5 |
 | Compose BOM | 2025.11.01 (Material 3 1.4) |
 | Room | 2.8.4 |
 | minSdk / targetSdk | 26 (Android 8.0) / 36 |

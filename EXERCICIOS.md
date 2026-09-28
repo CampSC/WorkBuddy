@@ -174,7 +174,7 @@ No histórico, um botão que partilha todos os treinos em formato CSV (`data;pla
 **Vais praticar:** testes, interfaces, injeção de dependências.
 
 ### 15. Atualizar as ferramentas
-Usa o **AGP Upgrade Assistant** (*Tools > AGP Upgrade Assistant*) para passar para o Android Gradle Plugin 9. Lê o que ele muda (o Kotlin passa a vir "incluído" no AGP) e atualiza as bibliotecas em `libs.versions.toml`. O Android Studio sublinha as que têm versões novas. [Guia](https://developer.android.com/build/agp-upgrade-assistant)
+Atualiza o Android Studio para a versão mais recente (*Help > Check for Updates*). Depois usa o **AGP Upgrade Assistant** (*Tools > AGP Upgrade Assistant*) para passar para o Android Gradle Plugin 9. Lê o que ele muda (o Kotlin passa a vir "incluído" no AGP) e atualiza as bibliotecas em `libs.versions.toml`. O Android Studio sublinha as que têm versões novas. [Guia](https://developer.android.com/build/agp-upgrade-assistant)
 
 **Vais praticar:** sistema de build (Gradle), ler notas de versão, resolver conflitos de versões.
 
